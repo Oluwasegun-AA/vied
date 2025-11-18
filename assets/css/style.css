@@ -38,7 +38,7 @@ URL:            http://themeforest.net/user/wpoceans
 --------------------------------------------------------------
   #4.0 about-page
 --------------------------------------------------------------
-  
+
 
 --------------------------------------------------------------
   #5.0 donation
@@ -48,7 +48,7 @@ URL:            http://themeforest.net/user/wpoceans
 --------------------------------------------------------------
   #6.0 volunteer-page
 --------------------------------------------------------------
-  
+
 
 
 --------------------------------------------------------------
@@ -498,7 +498,7 @@ img {
     -ms-transition: all 0.2s;
     transition: all 0.2s;
   }
-  
+
   @media (max-width: 991px) {
     .back-to-top {
       width: 35px;
@@ -506,11 +506,11 @@ img {
       line-height: 35px;
     }
   }
-  
+
   .back-to-top:hover {
     background-color: #f67d4a;
   }
-  
+
   .back-to-top i {
     font-size: 18px;
     font-size: 1.125rem;
@@ -4925,7 +4925,7 @@ ul {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     transform: scale(1);
-    transition: all .3s; 
+    transition: all .3s;
 }
 .team-section .grid:hover .img-holder img{
   transform: scale(1.2);
