@@ -5091,6 +5091,17 @@ ul {
     color: #f67d4a;
 }
 
+.event-section .img-holder.upcoming {
+    height: 280px;
+    overflow: hidden;
+}
+
+.event-section .img-holder.upcoming img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 /*==================================================
 #1.4 tp-cta-area
@@ -5102,22 +5113,9 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url(../images/cta.jpg) no-repeat center center / cover;
-    align-items: center;
+    background: #282828;
     position: relative;
     z-index: 1;
-}
-
-.tp-cta-area:before,
-.tp-cta-area-2:before {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, .8);
-    z-index: -1;
 }
 
 .tp-cta-text {
@@ -5396,24 +5394,13 @@ breadcumb-style
 ------------------------------------------------------------------*/
 
 .tp-breadcumb-area {
-    background: url(../images/breadcumb/img-1.jpg) no-repeat center top / cover;
+    background: #282828;
     min-height: 350px;
     position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     z-index: 1;
-}
-
-.tp-breadcumb-area:before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, .7);
-    content: "";
-    z-index: -1;
 }
 
 .tp-breadcumb-wrap {
