@@ -4756,7 +4756,7 @@ ul {
 }
 
 .gallery-section .masonry-gallery .grid {
-    width: 33.33%;
+    width: 100px;
     float: left;
     padding: 0 7.5px 15px;
 }
@@ -4769,7 +4769,7 @@ ul {
 
 @media (max-width: 767px) {
     .gallery-section .masonry-gallery .grid {
-        width: 50%;
+        width: 100px;
     }
 
     .gallery-section .gallery-filters ul li a {
@@ -4779,8 +4779,8 @@ ul {
 
 @media (max-width: 550px) {
     .gallery-section .masonry-gallery .grid {
-        width: 100%;
-        float: none;
+        width: 100px;
+        float: left;
         padding: 0 0 15px;
     }
 
@@ -4789,7 +4789,8 @@ ul {
 
 .gallery-section .grid {
     position: relative;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     overflow: hidden;
 }
 
